@@ -17,6 +17,7 @@ import Footer from "../src/components/global/Footer";
 import Blog from "../src/components/Blog";
 import Announcement from '../src/components/global/Announcement';
 import About from '../src/components/About';
+import Profile from '../src/components/Profile';
 
 function Home() {
   // initial render
@@ -25,6 +26,7 @@ function Home() {
     <div className="home">
       <Announcement/>
       <Hero/>
+      <Profile/>
       <Blog/>
       <Story/>
       <Community/>
