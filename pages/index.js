@@ -27,11 +27,6 @@ function Home() {
       <Announcement/>
       <Hero/>
       <Profile/>
-      <Blog/>
-      <Story/>
-      <Community/>
-      <Slogan/>
-      <Operations/>
       <CallToAction
         background="../../static/images/join-section-background.jpg"
         button={<Button
@@ -40,6 +35,12 @@ function Home() {
           link="https://www.meetup.com/iesd-meetup/"
         />}
       />
+      <Blog/>
+      <Story/>
+      <Community/>
+      <Slogan/>
+      <Operations/>
+     
       <Speakers/>
       <About/>
       <Mission/>
