@@ -1,12 +1,49 @@
-
 function Profile() {
   return (
-    <section id="user" className="uk-overlay-primary">
-      {/* TODO: Find a way to NOT render this under 960px */}
-      <div class="uk-overlay-primary uk-position-cover"></div>
-      <p className="title uk-padding-remove-bottom">Andy Mendez</p>
-      <p className="role uk-margin-small uk-margin-remove-top">Cold Fusion Developer</p>
-      <img id="profilepic" className="uk-border-circle" src="https://api.iesd.com/wp-content/uploads/2019/10/robin-asm.jpg "/>
+    <section>
+      <section id='user' className='uk-overlay-primary'>
+        {/* TODO: Find a way to NOT render this under 960px */}
+        <div class='uk-overlay-primary uk-position-cover'></div>
+        <p className='title uk-padding-remove-bottom'>Andy Mendez</p>
+        <p className='role uk-margin-small uk-margin-remove-top'>
+          Cold Fusion Developer
+        </p>
+        <img
+          id='profilepic'
+          className='uk-border-circle'
+          src='https://api.iesd.com/wp-content/uploads/2019/10/robin-asm.jpg '
+        />
+      </section>
+      <section class='uk-grid uk-padding-large'>
+        <section class='uk-width-2-3'>
+          <h2 id='responsive-width'>
+            <a href='#responsive-width' class='uk-link-reset'>
+              Responsive width
+            </a>
+          </h2>
+          <p>
+            UIkit provides a number of very useful responsive widths classes.
+            Basically they work just like the usual width classes, except they
+            are prefixed, so that they only come to effect at certain
+            breakpoints. These classes can be combined with the visibility
+            classes from the <a href='utility.html'>Utility component</a>. This
+            is great to adjust your layout and content for different device
+            sizes.
+          </p>
+        </section>
+        <section class='uk-width-1-3'>
+          <div id="info-card" class='uk-card uk-card-body' >
+            <h2 class='uk-card-title uk-text-bolder meduim-text uk-margin-small'>Contact</h2>
+            <h4 className="meduimP-text uk-margin-medium-top uk-text-muted  ">Phone Number</h4>
+            <p className=" uk-text-bolder book-text uk-margin-remove">+19511234567</p>
+            <p>
+              Lorem ipsum <a href='#'>dolor</a> sit amet, consectetur adipiscing
+              elit, sed do eiusmod tempor incididunt ut labore et dolore magna
+              aliqua.
+            </p>
+          </div>
+        </section>
+      </section>
     </section>
   );
 }

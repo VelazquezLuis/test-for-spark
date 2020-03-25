@@ -59,4 +59,21 @@
     justify-content: center;
     left: 470px;
   }
+  #info-card{
+    border-style: solid;
+    border-width: 1px;
+  }
+}
+#info-card{
+  border-radius: 5px;
+  border: 2px solid rgba(0, 0, 0, 0.1);
+}
+.meduim-text{
+  font-size: 20px;
+}
+.meduimP-text{
+  font-size: 14px;
+}
+.book-text{
+  font-size: 18px;
 }
