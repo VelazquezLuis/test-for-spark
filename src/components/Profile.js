@@ -34,7 +34,7 @@ function Profile() {
           </section>
           <section className='uk-width-3-3'>
             <div class='timeline uk-width-3-3'>
-              <div class='container right'>
+              <div class='container  right'><div class="container2 right2"></div>
                 <div class='contents'>
                   <h2>2016</h2>
                   <p>
